@@ -11,3 +11,16 @@ Un array es una colección de elementos organizados de forma **secuencial** en m
 Cada elemento se accede mediante un **índice**, que comienza desde **0**.
 
 📌 Ejemplo:
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int numeros[5] = {1,2,3,4,5};
+
+    for(int i = 0; i < 5; i++){
+        cout << numeros[i] << endl;
+    }
+
+    return 0;
+}
